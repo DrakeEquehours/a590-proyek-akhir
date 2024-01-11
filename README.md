@@ -38,9 +38,10 @@ Untuk menjalankan sistem machine learning menggunakan streamlit secara luring da
 ```
 streamlit run app.py
 ```
-Secara daring, sistem dapat diakses menggunakan link [berikut]()
+Secara daring, sistem dapat diakses menggunakan link [berikut](https://a590-proyek-akhir-ahmad.streamlit.app/)
+
 ## Conclusion
-Berdasarkan hasil proyek, dapat disimpulkan bahwa terdapat pola yang signifikan dalam distribusi skor antara siswa yang lulus dan siswa yang dropout di Jaya Jaya Institut. Siswa yang lulus cenderung memiliki skor tertinggi di sekitar nilai 13 dan menunjukkan kecenderungan untuk memperoleh skor lebih tinggi, sementara siswa yang dropout memiliki skor terbanyak di sekitar nilai 12 dan menunjukkan kecenderungan untuk mendapatkan skor lebih rendah. Temuan ini memberikan pemahaman yang lebih baik terkait faktor-faktor akademis yang mempengaruhi keputusan siswa untuk menyelesaikan atau meninggalkan pendidikan. 
+Berdasarkan hasil proyek, dapat disimpulkan bahwa terdapat pola yang signifikan dalam distribusi skor antara siswa yang lulus dan siswa yang dropout di Jaya Jaya Institut. Siswa yang lulus cenderung memiliki distribusi skor tertinggi di sekitar nilai 13 dan menunjukkan kecenderungan untuk memperoleh skor lebih tinggi, sementara siswa yang dropout memiliki skor terbanyak di sekitar nilai 12 dan menunjukkan kecenderungan untuk mendapatkan skor lebih rendah. Temuan ini memberikan pemahaman yang lebih baik terkait faktor-faktor akademis yang mempengaruhi keputusan siswa untuk menyelesaikan atau meninggalkan pendidikan. 
 
 ### Rekomendasi Action Items
 Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
