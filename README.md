@@ -30,7 +30,7 @@ import joblib
 
 Analisis distribusi skor antara siswa yang lulus (graduated) dan siswa yang dropout di dashboard mengungkapkan pola yang signifikan. Siswa yang lulus cenderung memiliki skor tertinggi di sekitar nilai 13 dan kecenderungan untuk memperoleh skor lebih tinggi. Sebaliknya, siswa yang dropout memiliki skor terbanyak di sekitar nilai 12 dan menunjukkan kecenderungan untuk mendapatkan skor lebih rendah. Perbedaan distribusi ini dapat memberikan wawasan berharga terkait karakteristik akademis yang membedakan kedua kelompok tersebut. Informasi ini dapat menjadi dasar untuk merancang strategi intervensi yang sesuai, seperti memberikan dukungan tambahan kepada siswa dengan skor rendah atau mengidentifikasi faktor penyebab dropout yang berkaitan dengan nilai akademis. 
 
-Dashboard dapat di akses pada link [berikut](https://lookerstudio.google.com/reporting/f4969332-fd76-4943-aad4-b96e4b0a5ba8)
+Dashboard dapat di akses pada link [berikut](https://lookerstudio.google.com/reporting/a2fbdbd2-c034-42b3-97ef-0ce93b52160f)
 
 ## Menjalankan Sistem Machine Learning
 Untuk menjalankan sistem machine learning menggunakan streamlit secara luring dapat menggunakan code berikut

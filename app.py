@@ -1,12 +1,17 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
 
 model = joblib.load('model/random_forest_model.joblib')
 data = pd.read_csv('data.csv', sep=';')
 
-features = data.columns.tolist()
-features.remove('Status')
+features = [
+    'Curricular_units_2nd_sem_approved', 
+    'Curricular_units_2nd_sem_grade',
+    'Curricular_units_1st_sem_approved',
+    'Curricular_units_1st_sem_grade'
+]
 
 st.sidebar.title("User Input")
 user_inputs = {}
@@ -24,13 +29,14 @@ for feature in features:
 
 user_df = pd.DataFrame([user_inputs])
 
-st.sidebar.subheader("User Input:")
-st.sidebar.write(user_df)
-
 prediction = model.predict(user_df)
 
-st.subheader("Prediction:")
-if prediction[0] == 'Graduated':
-    st.write(" With this parameter students will be GRADUATED :green_circle:")
+st.header("Student Dropout Prediction Apps")
+st.write("Welcome to the apps, you can adjust your parameter in side box on your left to predict whether your student dropout or not")
+st.subheader("Prediction Result:")
+os.write(1,bytes(f'{prediction}\n', encoding='utf-8'))
+
+if prediction[0] == 1:
+    st.write(" With this parameter students will be GRADUATED :large_green_circle:")
 else:
-     st.write(" With this parameter students will be DROPOUT :red_circle:")
+     st.write(" With this parameter students will be DROPOUT :large_orange_circle:")
