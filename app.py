@@ -7,10 +7,8 @@ model = joblib.load('model/random_forest_model.joblib')
 data = pd.read_csv('data.csv', sep=';')
 
 features = [
-    'Curricular_units_2nd_sem_approved', 
     'Curricular_units_2nd_sem_grade',
-    'Curricular_units_1st_sem_approved',
-    'Curricular_units_1st_sem_grade'
+    'Curricular_units_1st_sem_grade',
 ]
 
 st.sidebar.title("User Input")
